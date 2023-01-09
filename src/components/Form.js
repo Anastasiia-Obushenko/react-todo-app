@@ -1,21 +1,21 @@
-import React from 'react'
+import React from 'react';
 
 function Form() {
-  return (
-      <form>
-          <input type="text" class="todo-input" />
-          <button class="todo-button" type="submit">
-              <i class="fas fa-plus-square"></i>
-          </button>
-          <div class="select">
-              <select name="todos" class="filter-todo">
-                  <option value="all">All</option>
-                  <option value="completed">Completed</option>
-                  <option value="uncompleted">Uncompleted</option>
-              </select>
-          </div>
-      </form>
-  )
+    return (
+        <form>
+            <input type="text" className="todo-input" />
+            <button className="todo-button" type="submit">
+                <i className="fas fa-plus-square"></i>
+            </button>
+            <div className="select">
+                <select name="todos" classNameName="filter-todo">
+                    <option value="all">All</option>
+                    <option value="completed">Completed</option>
+                    <option value="uncompleted">Uncompleted</option>
+                </select>
+            </div>
+        </form>
+    );
 }
 
-export default Form
+export default Form;
