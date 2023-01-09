@@ -2,7 +2,9 @@ import React from 'react'
 
 function TodoList() {
   return (
-    <div>TodoList</div>
+      <div class="todo-container">
+          <ul class="todo-list"></ul>
+      </div>
   )
 }
 
