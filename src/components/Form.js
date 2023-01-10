@@ -12,8 +12,8 @@ function Form({ inputText, setInputText, todos, setTodos, setStatus }) {
         setInputText("");
     };
     const statusHandler = (e) => {
-        setStatus(e.target.value)
-    }
+        setStatus(e.target.value);
+    };
     return (
         <form>
             <input value={inputText} onChange={inputTextHandler} type="text" className="todo-input" />
