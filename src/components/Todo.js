@@ -1,9 +1,17 @@
-import React from 'react'
+import React from 'react';
 
 function Todo() {
-  return (
-    <div>Todo</div>
-  )
+    return (
+        <div className='todo'>
+            <li className='todo-item'>d</li>
+            <button className='complete-btn'>
+                <i className='fas fa-check'></i>
+            </button>
+            <button className='trash-btn'>
+                <i className='fas fa-trash'></i>
+            </button>
+        </div>
+    );
 }
 
-export default Todo
+export default Todo;
