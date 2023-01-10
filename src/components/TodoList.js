@@ -1,4 +1,6 @@
 import React from 'react'
+// import components
+import Todo from './Todo';
 
 function TodoList() {
   return (
